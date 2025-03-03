@@ -35,7 +35,8 @@ dependencies {
     //modImplementation "fi.dy.masa.malilib:malilib-fabric-${project.minecraft_version}:${project.malilib_version}"
 	modImplementation 'com.github.sakura-ryoko:malilib:1.21-sakura.8'
 
-
+    // Breaker module
+    implementation project(':breaker')
 }
 
 processResources {
