@@ -9,12 +9,13 @@
   ],
   "contact": {
     "repo": "https://github.com/kkllffaa/meteor-litematica-printer"
-  },
+  ],
   "icon": "assets/meteor_litematica_printer/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.kkllffaa.meteor_litematica_printer.Addon"
+      "com.kkllffaa.meteor_litematica_printer.Addon",
+      "com.kkllffaa.meteor_litematica_printer.Breaker"
     ]
   },
   "depends": {
